@@ -1,0 +1,21 @@
+Funcionalidade:
+Como usuário quero validar os métodos de acesso após clicar em Concordar e Continuar na tela de boas vindas do app WhatsApp
+
+Cadastrar:
+Usuario pretende realizar cadastro no app WhatsApp e ter acesso as funcionalidades
+
+Dado que é necessario inserir as informações corretas para que o cadastro seja efetuado com sucesso
+
+Primeiro Cenário: Cadastramento válido
+Dado que Jhon deseja realizar um cadastro no aplicativo WhatsApp
+E ao acessar a página será solicitado para inserir seus dados
+e a primeira informação será o número de telefone com codigo do país codigo do estado
+Quando inserido todas as informações
+Então deve avançar para proxima etapa de configuração
+
+Segundo Cenário: Cadastramento Invalido
+Dado que Jhon deseja realizar um cadastro no aplicativo WhatsApp
+E ao acessar a página será solicitado para inserir seus dados
+e a primeira informação será o número de telefone com codigo do país codigo do estado
+Quando todas as informações são inseridas e essas informações são do padrao
+Então o cadastro não será efetuado e aparece uma mensagem de número é inválido e que deverá preencher corretamente
